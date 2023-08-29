@@ -572,7 +572,10 @@ ul {
         display: none;
     }
 
-
+    
+.web_inweb {
+    width: 90%;
+}
     .top_out {
         background-image: url(../pics/back_phone2.jpg);
 
