@@ -370,6 +370,7 @@ body {
 .cv_left
 {
     width: 40%;
+    font-weight: bold;
     text-align: right;
 }
 .cv_right
