@@ -22,7 +22,7 @@ a {
 
 /* night mode */
 
-.light-mode {
+.night-mode {
     --main_text_color: #c4c2c2;
     --pri_text_color: white;
 
@@ -44,7 +44,7 @@ a {
 
 /* light mode */
 
-.night-mode {
+.light-mode {
     --main_text_color: #45505b;
     --pri_text_color: white;
 
