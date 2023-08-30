@@ -10,12 +10,18 @@
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet"> -->
 
-    <!-- <meta http-equiv="refresh" content="5"> -->
+    <!-- <meta http-equiv="refresh" content="3"> -->
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/keyframe.css">
     <link rel="stylesheet" href="./assets/icon/style.css">
+
+
     <link href="./assets/pics/breldosg lyrics white.png" rel="icon">
+
+    <script src="./assets/js/js.js" defer></script>
+    <script src="./assets/js/default js.js" defer></script>
 
     <title>BreldosG Portfilio</title>
 </head>
@@ -24,78 +30,99 @@
     <div class="container">
 
 
-        <div class="side_out">
-            <div class="side">
-                <div class="side_in">
 
-                    <a href="#home">
-                        <div class=" tab">
-                            <div class="icon juu">
-                                <img src="./assets/icon/home.svg" alt="">
-                            </div>
-                            <div class="icon"></div>
-                            <div class="icon_name">
-                                <label>home</label>
-                            </div>
-                        </div>
-                    </a>
+        <div class="side_in">
 
-                    <a href="#about">
-                        <div class=" tab">
-                            <div class="icon juu">
-                                <img src="./assets/icon/user.svg" alt="">
-                            </div>
-                            <div class="icon"></div>
-                            <div class="icon_name">
-                                <label>about</label>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#services">
-                        <div class=" tab">
-                            <div class="icon juu">
-                                <img src="./assets/icon/server.svg" alt="">
-                            </div>
-                            <div class="icon"></div>
-                            <div class="icon_name">
-                                <label>services</label>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#projects">
-                        <div class=" tab">
-                            <div class="icon juu">
-                                <span class='switch_icon_code'></span>
-                            </div>
-                            <div class="icon"></div>
-                            <div class="icon_name">
-                                <label>projects</label>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="#contact">
-                        <div class=" tab">
-                            <div class="icon juu">
-                                <img src="./assets/icon/mail (1).svg" alt="">
-                            </div>
-                            <div class="icon"></div>
-                            <div class="icon_name">
-                                <label>contact</label>
-                            </div>
-                        </div>
-                    </a>
-
+            <a href="#home">
+                <div class=" tab">
+                    <div class="icon juu">
+                        <img src="./assets/icon/home.svg" alt="">
+                    </div>
+                    <div class="icon"></div>
+                    <div class="icon_name">
+                        <label>home</label>
+                    </div>
                 </div>
+            </a>
+
+            <a href="#about">
+                <div class=" tab">
+                    <div class="icon juu">
+                        <img src="./assets/icon/user.svg" alt="">
+                    </div>
+                    <div class="icon"></div>
+                    <div class="icon_name">
+                        <label>about</label>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#services">
+                <div class=" tab">
+                    <div class="icon juu">
+                        <img src="./assets/icon/server.svg" alt="">
+                    </div>
+                    <div class="icon"></div>
+                    <div class="icon_name">
+                        <label>services</label>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#projects">
+                <div class=" tab">
+                    <div class="icon juu">
+                        <span class='switch_icon_code'></span>
+                    </div>
+                    <div class="icon"></div>
+                    <div class="icon_name">
+                        <label>projects</label>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#contact">
+                <div class=" tab">
+                    <div class="icon juu">
+                        <img src="./assets/icon/mail (1).svg" alt="">
+                    </div>
+                    <div class="icon"></div>
+                    <div class="icon_name">
+                        <label>contact</label>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+
+        <div class="mode_out">
+
+            <div class="mode_in moon" id="moonRoot">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Environment / Moon">
+                        <path id="Vector"
+                            d="M9 6C9 10.9706 13.0294 15 18 15C18.9093 15 19.787 14.8655 20.6144 14.6147C19.4943 18.3103 16.0613 20.9999 12 20.9999C7.02944 20.9999 3 16.9707 3 12.0001C3 7.93883 5.69007 4.50583 9.38561 3.38574C9.13484 4.21311 9 5.09074 9 6Z"
+                            stroke=" var(--icon_in)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </g>
+                </svg>
+
             </div>
+
+            <div class="mode_in sun" id="sunRoot">
+                <span class='switch_icon_wb_sunny'></span>
+            </div>
+
+
+            
         </div>
 
 
         <div class="container_in">
 
-            <section id="home" class="top_out">
+            <section id="home">
+
                 <div class="top">
 
                     <div class="top_in">
@@ -104,29 +131,44 @@
                             <label>i'm <span class="dev_span">developer</span></label>
                         </div>
                         <div class="social">
-                            <div class="social_icon">
-                                <img src="./assets/icon/email.svg" alt="">
+                            <div class="social_icon_out">
+                                <div class="social_icon">
+                                    <img src="./assets/icon/email.svg" alt="">
+                                </div>
                             </div>
 
-                            <div class="social_icon">
-                                <img src="./assets/icon/whatsapp.svg" alt="">
+
+                            <div class="social_icon_out">
+                                <div class="social_icon">
+                                    <img src="./assets/icon/whatsapp.svg" alt="">
+                                </div>
                             </div>
 
-                            <div class="social_icon">
-                                <img src="./assets/icon/instagram.svg" alt="">
+
+                            <div class="social_icon_out">
+                                <div class="social_icon">
+                                    <img src="./assets/icon/instagram.svg" alt="">
+                                </div>
                             </div>
 
-                            <div class="social_icon">
-                                <img src="./assets/icon/github.svg" alt="">
+
+                            <div class="social_icon_out">
+                                <div class="social_icon">
+                                    <img src="./assets/icon/github.svg" alt="">
+                                </div>
                             </div>
+
+
+
+
 
 
                         </div>
                     </div>
                 </div>
 
-            </section>
 
+            </section>
 
 
             <section id="about" class="about_div">
@@ -169,7 +211,6 @@
                 </div>
 
             </section>
-
 
 
             <section id="services" class="services_div">
@@ -257,76 +298,7 @@
 
             </section>
 
-
-            <section id="projects" class="services_div">
-                <div class="cut head">
-                    <h1>my projects</h1>
-
-                    <div style="width: 120px;" class="line_out">
-                        <div style="width: 35px;" class="line_in"></div>
-                    </div>
-                </div>
-                <div class=" cut_2 detail">
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab temporibus praesentium animi ipsa
-                        aperiam beatae quis. Exercitationem nisi odio voluptatibus, veritatis magnam adipisci totam
-                        minus.
-                        Totam sint facilis obcaecati voluptas iste voluptatibus temporibus quasi! Ducimus nisi placeat
-                        maiores magnam culpa.
-                    </p>
-                </div>
-
-                <div class="serv_detail inweb_out">
-
-                    <div class="web_inweb">
-                        
-                        <iframe src="http://localhost/bg/icons/Instructions.html"></iframe>
-                        <div class="hover-overlay"></div>
-
-                    </div>
-                  
-                    <div class="web_inweb">
-                        
-                        <iframe src="http://localhost/bg/icons/Instructions.html"></iframe>
-                        <div class="hover-overlay"></div>
-
-                    </div>
-                  
-                    <div class="web_inweb">
-                        
-                        <iframe src="http://localhost/bg/icons/Instructions.html"></iframe>
-                        <div class="hover-overlay"></div>
-
-                    </div>
-                  
-                    <div class="web_inweb">
-                        
-                        <iframe src="http://localhost/bg/icons/Instructions.html"></iframe>
-                        <div class="hover-overlay"></div>
-
-                    </div>
-                  
-                    <div class="web_inweb">
-                        
-                        <iframe src="http://localhost/bg/icons/Instructions.html"></iframe>
-                        <div class="hover-overlay"></div>
-
-                    </div>
-                  
-                    <div class="web_inweb">
-                        
-                        <iframe src="http://localhost/bg/icons/Instructions.html"></iframe>
-                        <div class="hover-overlay"></div>
-
-                    </div>
-                  
-
-                </div>
-
-
-            </section>
-
-
+            <section id="projects" class="services_div"></section>
 
             <section id="contact" class="contact_div">
 
@@ -454,7 +426,9 @@
 
         </div>
 
+
     </div>
 </body>
 
 </html>
+
