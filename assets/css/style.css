@@ -38,6 +38,8 @@ a {
     --icon_in: #c4c2c2;
     --icon_color: #0556a1;
     --icon_hover_color: #0085ff;
+    
+    --hover_color_in_contact:#a7a7a729;
 
     transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -61,6 +63,8 @@ a {
     --icon_hover_color: #616060;
 
     --container_op: 0.4;
+
+    --hover_color_in_contact:#f0f0f0;
 
     transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -514,7 +518,7 @@ body {
 }
 .cont_div:hover
 {
-    background-color: #f0f0f0;
+    background-color: var(--hover_color_in_contact);
 }
 
 .cont_icon {

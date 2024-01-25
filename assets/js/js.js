@@ -31,3 +31,17 @@ function fadeOutAndSwap(fadeOutSelector, fadeInSelector) {
         fadeInElement.style.opacity = '1';
     }, 300); // Delay for fade out effect
 }
+
+window.onload = theme_checker();
+
+function theme_checker() {
+    // Check if the user's device prefers dark mode
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        // Dark mode is preferred
+        activateNightMode()
+    } else {
+        // Light mode is preferred
+        activateLightMode()
+    }
+
+}
