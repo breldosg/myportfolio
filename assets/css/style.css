@@ -38,8 +38,8 @@ a {
     --icon_in: #c4c2c2;
     --icon_color: #0556a1;
     --icon_hover_color: #0085ff;
-    
-    --hover_color_in_contact:#a7a7a729;
+
+    --hover_color_in_contact: #a7a7a729;
 
     transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -64,7 +64,7 @@ a {
 
     --container_op: 0.4;
 
-    --hover_color_in_contact:#f0f0f0;
+    --hover_color_in_contact: #f0f0f0;
 
     transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -352,33 +352,30 @@ body {
     height: 100%;
 }
 
-.cv_head
-{
+.cv_head {
     width: 100%;
     text-align: center;
     /* background-color: red; */
     margin-top: 30px;
 }
 
-.cv_head:first-child
-{
+.cv_head:first-child {
     margin-top: 0;
 }
-.cv_detail
-{
+
+.cv_detail {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.cv_left
-{
+.cv_left {
     width: 40%;
     font-weight: bold;
     text-align: right;
 }
-.cv_right
-{
+
+.cv_right {
     width: 40%;
 }
 
@@ -510,14 +507,15 @@ body {
     padding: 0 5px;
     border-radius: 8px;
     transition: all 0.5s ease;
-    
+
 }
-.cont_div,.cont_div *
-{
+
+.cont_div,
+.cont_div * {
     cursor: pointer;
 }
-.cont_div:hover
-{
+
+.cont_div:hover {
     background-color: var(--hover_color_in_contact);
 }
 
@@ -720,6 +718,6 @@ body {
         font-size: 10px;
     }
 
-    
+
 
 }
