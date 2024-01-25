@@ -497,12 +497,24 @@ body {
 }
 
 .cont_div {
-    width: 50%;
+    width: 30%;
     display: flex;
     align-items: center;
     height: 70px;
     margin-top: 20px;
     /* background-color: red; */
+    padding: 0 5px;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    
+}
+.cont_div,.cont_div *
+{
+    cursor: pointer;
+}
+.cont_div:hover
+{
+    background-color: #f0f0f0;
 }
 
 .cont_icon {
@@ -547,6 +559,7 @@ body {
     align-items: center;
     justify-content: center;
     /* background-color: #0563bb; */
+    text-align: center;
 }
 
 
@@ -632,6 +645,7 @@ body {
     .detail_2,
     .detail {
         width: 95%;
+        text-align: left;
     }
 
     .detail_2 {
