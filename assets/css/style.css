@@ -137,6 +137,11 @@ body {
     border-radius: 25px;
     overflow: hidden;
     transition: 0.5s ease-out;
+    cursor: pointer;
+
+    * {
+        cursor: pointer;
+    }
 }
 
 .tab:hover {
@@ -185,6 +190,10 @@ body {
 
     z-index: 2;
 
+    * {
+        cursor: pointer;
+    }
+
 }
 
 .mode_in {
@@ -197,6 +206,8 @@ body {
 
     transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
     background-color: var(--icon_color);
+
+
 }
 
 .mode_in:hover {
@@ -260,6 +271,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    * {
+        cursor: pointer;
+    }
 }
 
 .social_icon {
@@ -390,14 +405,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content:center;
+    /* gap: 20px; */
 
 }
 
-.cut {
+/* .cut {
     height: 10%;
     justify-content: flex-end;
 
-}
+} */
 
 .head {
     display: flex;
@@ -414,9 +431,10 @@ body {
 .serv_detail {
     display: flex;
     width: 70%;
-    height: 70%;
+    height: calc(70% - 9vh);
     justify-content: space-between;
     align-items: center;
+    margin-top: 10vh;
     /* background-color: aqua; */
 }
 
@@ -431,6 +449,7 @@ body {
     border-radius: 20px;
     backdrop-filter: blur(0px);
     transition: 0.5s ease-in;
+    padding: 10px;
 }
 
 .serv_card:hover {
@@ -462,7 +481,7 @@ body {
 }
 
 .serv_logo img {
-    width: 50px;
+    width: 70px;
 }
 
 .serv_word {
@@ -580,7 +599,7 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     .side_in {
         display: none;
